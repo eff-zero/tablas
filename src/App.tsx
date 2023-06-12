@@ -1,6 +1,11 @@
+import './App.css'
+import { Form } from './components/form'
+
 function App() {
   return (
-    <div>App</div>
+    <main className="main__container">
+        {true && <Form />}
+    </main>
   )
 }
 
